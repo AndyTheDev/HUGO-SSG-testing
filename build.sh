@@ -24,8 +24,6 @@
 # main "$@"
 
 #!/bin/bash
-set -euo pipefail
-
 echo "Inicializuji Git submodules..."
 echo "Nastavuji Blowfish theme..."
 git submodule update --init --recursive
