@@ -1,0 +1,9 @@
+name = "hugo_test"              #název projektu, ideálně shodný s tím v cloudflare
+compatibility_date = "2025-10-23"         #datum vytvoření souboru
+
+[build]     
+command = "./build.sh"          #customizace buildu
+
+[assets]
+directory = "./public"          #odkázání na složku se sestavenou stránkou
+not_found_handling = "404-page" #při špatném požadavku od uživatele ho odkáže na 404 stránku
