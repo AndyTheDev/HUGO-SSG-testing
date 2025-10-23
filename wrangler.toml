@@ -1,4 +1,4 @@
-name = "hugo-test-01"              #název projektu, ideálně shodný s tím v cloudflare
+name = "hugo-test-01"              #název projektu, musí být shodný s tím v cloudflare
 compatibility_date = "2025-10-23"         #datum vytvoření souboru
 
 [build]     
