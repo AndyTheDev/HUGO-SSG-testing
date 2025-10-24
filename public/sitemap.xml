@@ -3,27 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>http://localhost:1313/HUGO-SSG-testing/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/something/test2/</loc>
+    <loc>http://localhost:1313/HUGO-SSG-testing/something/test2/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/markdown/</loc>
+    <loc>http://localhost:1313/HUGO-SSG-testing/markdown/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/test1/</loc>
+    <loc>http://localhost:1313/HUGO-SSG-testing/test1/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/something/</loc>
+    <loc>http://localhost:1313/HUGO-SSG-testing/something/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
