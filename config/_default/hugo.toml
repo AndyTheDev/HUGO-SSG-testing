@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://AndyTheDev.github.io/HUGO-SSG-testing/"
+baseURL = "https://hugo-test-01.a-goncarov.workers.dev/" #musí být shodné s adresou, na kterou to bude publishnuté
 defaultContentLanguage = "en"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
