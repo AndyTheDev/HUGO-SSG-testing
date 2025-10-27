@@ -2,5 +2,6 @@
 date = '{{ .Date }}'
 draft = false
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-author = 'Andrej Gončarov' 
+author = 'John DOe' 
+tags = []
 +++

@@ -2,21 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Blowfish</title>
-    <link>http://localhost:1313/HUGO-SSG-testing/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cz</language>
     <managingEditor>hello@world.com (Joe)</managingEditor>
     <webMaster>hello@world.com (Joe)</webMaster>
     <copyright>© 2025 Joe</copyright>
-    <atom:link href="http://localhost:1313/HUGO-SSG-testing/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Oct 2025 23:22:49 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Archetypes</title>
+      <link>http://localhost:1313/tags/archetypes/</link>
+      <pubDate>Mon, 27 Oct 2025 23:22:49 +0100</pubDate>
+      <author>hello@world.com (Joe)</author>
+      <guid>http://localhost:1313/tags/archetypes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
+      <pubDate>Mon, 27 Oct 2025 23:22:49 +0100</pubDate>
+      <author>hello@world.com (Joe)</author>
+      <guid>http://localhost:1313/tags/hugo/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Markdown</title>
-      <link>http://localhost:1313/HUGO-SSG-testing/tags/markdown/</link>
+      <link>http://localhost:1313/tags/markdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>hello@world.com (Joe)</author>
-      <guid>http://localhost:1313/HUGO-SSG-testing/tags/markdown/</guid>
+      <guid>http://localhost:1313/tags/markdown/</guid>
       <description></description>
       
     </item>
