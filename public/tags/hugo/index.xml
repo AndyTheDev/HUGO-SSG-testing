@@ -6,16 +6,16 @@
     <description>Recent content in Hugo on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cz</language>
-    <managingEditor>hello@world.com (Joe)</managingEditor>
-    <webMaster>hello@world.com (Joe)</webMaster>
-    <copyright>© 2025 Joe</copyright>
+    <managingEditor>hello@world.com (Vítej)</managingEditor>
+    <webMaster>hello@world.com (Vítej)</webMaster>
+    <copyright>© 2025 Vítej</copyright>
     <lastBuildDate>Tue, 28 Oct 2025 20:12:24 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Taxonomies</title>
       <link>http://localhost:1313/lessons/taxonomies/</link>
       <pubDate>Tue, 28 Oct 2025 20:12:24 +0100</pubDate>
-      <author>hello@world.com (Joe)</author>
+      <author>hello@world.com (Vítej)</author>
       <guid>http://localhost:1313/lessons/taxonomies/</guid>
       <description></description>
       
@@ -25,7 +25,7 @@
       <title>Shortcode experimenty</title>
       <link>http://localhost:1313/lessons/shortcodes/</link>
       <pubDate>Mon, 27 Oct 2025 23:22:49 +0100</pubDate>
-      <author>hello@world.com (Joe)</author>
+      <author>hello@world.com (Vítej)</author>
       <guid>http://localhost:1313/lessons/shortcodes/</guid>
       <description></description>
       
