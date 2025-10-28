@@ -12,33 +12,26 @@
 
 [[main]]
   name = "Experimenty"
-  pageRef = "something" 
+  pageRef = "lessons" 
   weight = 10
 
 [[main]]
   name = "Markdown tutoriál"
+  pageRef = "lessons/Markdown.md" 
   weight = 20
 
-[[subnavigation]]
- name = "An interesting topic"
- pageRef = "tags/interesting-topic"
- weight = 10
-
-[[subnavigation]]
- name = "My Awesome Category"
- pre = "github"
- pageRef = "categories/awesome"
- weight = 20
-
 [[main]]
- name = "Categories"
- pageRef = "categories"
- weight = 20
-
-[[main]]
- name = "Tags"
+ name = "Tagy"
  pageRef = "tags"
  weight = 30
+
+# [[subnavigation]]
+#  name = "Repozitář tohoto projektu"
+#  pre = "github"
+#  pageRef = "https://github.com/AndyTheDev/HUGO-SSG-testing"
+#  weight = 40
+
+
 
 
 # -- Footer Menu --
@@ -46,10 +39,11 @@
 # the copyright notice. Configure as per the main menu above.
 
 
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+[[footer]]
+  name = "Repozitář tohoto projektu"
+  pre = "github"
+  pageRef = "https://github.com/AndyTheDev/HUGO-SSG-testing"
+  weight = 10
 
 # [[footer]]
 #   name = "Categories"

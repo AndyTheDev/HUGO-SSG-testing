@@ -1,7 +1,7 @@
 ---
 title: "První pokusy s HUGO"
 description: "Blekoty mekoty"
-tags: ["Markdown"]
+tags: ["Test"]
 ----
 
 # První HUGO test

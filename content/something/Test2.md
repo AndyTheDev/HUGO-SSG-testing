@@ -1,6 +1,7 @@
 ---
 title: "Brikule vol.2"
 description: "POkračování experimentů s HUGO"
+tags: ["Test"]
 ---
 
 {{< alert >}}

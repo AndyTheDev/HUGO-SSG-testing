@@ -1,5 +1,6 @@
 ---
 title: "Markdown crash course"
+date: "2025-10-18T19:22:49+01:00"
 description: "Úvod do psaní Markdown kódu"
 tags: ["Markdown"]
 ---

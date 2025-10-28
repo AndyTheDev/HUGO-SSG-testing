@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blowfish</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Blowfish</description>
+    <title>Lessons on Blowfish</title>
+    <link>http://localhost:1313/lessons/</link>
+    <description>Recent content in Lessons on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cz</language>
     <managingEditor>hello@world.com (Joe)</managingEditor>
     <webMaster>hello@world.com (Joe)</webMaster>
     <copyright>© 2025 Joe</copyright>
-    <lastBuildDate>Tue, 28 Oct 2025 20:12:24 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Oct 2025 20:12:24 +0100</lastBuildDate><atom:link href="http://localhost:1313/lessons/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Taxonomies</title>
@@ -37,26 +37,6 @@
       <pubDate>Sat, 18 Oct 2025 19:22:49 +0100</pubDate>
       <author>hello@world.com (Joe)</author>
       <guid>http://localhost:1313/lessons/markdown/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Brikule vol.2</title>
-      <link>http://localhost:1313/something/test2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>hello@world.com (Joe)</author>
-      <guid>http://localhost:1313/something/test2/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>První pokusy s HUGO</title>
-      <link>http://localhost:1313/something/test1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>hello@world.com (Joe)</author>
-      <guid>http://localhost:1313/something/test1/</guid>
       <description></description>
       
     </item>
