@@ -14,15 +14,15 @@
   <meta name="theme-color">
 
   
-  <title>Markdown crash course &middot; Blowfish</title>
-    <meta name="title" content="Markdown crash course &middot; Blowfish">
+  <title>Templates_intro &middot; Blowfish</title>
+    <meta name="title" content="Templates_intro &middot; Blowfish">
 
   
-  <meta name="description" content="Úvod do psaní Markdown kódu">
-  <meta name="keywords" content="Markdown,">
+  
+  <meta name="keywords" content="Hugo,">
   
   
-  <link rel="canonical" href="http://localhost:1313/lessons/markdown/">
+  <link rel="canonical" href="http://localhost:1313/lessons/templates_intro/">
   
   
   
@@ -97,47 +97,45 @@
   
 
   
-  <meta property="og:url" content="http://localhost:1313/lessons/markdown/">
+  <meta property="og:url" content="http://localhost:1313/lessons/templates_intro/">
   <meta property="og:site_name" content="Blowfish">
-  <meta property="og:title" content="Markdown crash course">
-  <meta property="og:description" content="Úvod do psaní Markdown kódu">
+  <meta property="og:title" content="Templates_intro">
   <meta property="og:locale" content="cz">
   <meta property="og:type" content="article">
     <meta property="article:section" content="lessons">
-    <meta property="article:published_time" content="2025-10-18T19:22:49+01:00">
-    <meta property="article:modified_time" content="2025-10-18T19:22:49+01:00">
-    <meta property="article:tag" content="Markdown">
+    <meta property="article:published_time" content="2025-10-29T22:29:55+01:00">
+    <meta property="article:modified_time" content="2025-10-29T22:29:55+01:00">
+    <meta property="article:tag" content="Hugo">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Markdown crash course">
-  <meta name="twitter:description" content="Úvod do psaní Markdown kódu">
+  <meta name="twitter:title" content="Templates_intro">
 
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Lessons",
-    "name": "Markdown crash course",
-    "headline": "Markdown crash course",
-    "description": "Úvod do psaní Markdown kódu",
+    "name": "Templates_intro",
+    "headline": "Templates_intro",
+    
     
     "inLanguage": "cz",
-    "url" : "http:\/\/localhost:1313\/lessons\/markdown\/",
+    "url" : "http:\/\/localhost:1313\/lessons\/templates_intro\/",
     "author" : {
       "@type": "Person",
       "name": "Vítej"
     },
     "copyrightYear": "2025",
-    "dateCreated": "2025-10-18T19:22:49\u002b01:00",
-    "datePublished": "2025-10-18T19:22:49\u002b01:00",
+    "dateCreated": "2025-10-29T22:29:55\u002b01:00",
+    "datePublished": "2025-10-29T22:29:55\u002b01:00",
     
-    "dateModified": "2025-10-18T19:22:49\u002b01:00",
+    "dateModified": "2025-10-29T22:29:55\u002b01:00",
     
-    "keywords": ["Markdown"],
+    "keywords": ["Hugo"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "359"
+    "wordCount": "78"
   }]
   </script>
 
@@ -469,7 +467,7 @@
     <header id="single_header" class="mt-5 max-w-prose">
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Markdown crash course
+        Templates_intro
       </h1>
       <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -522,7 +520,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-10-18T19:22:49&#43;01:00">18 October 2025</time><span class="px-2 text-primary-500">&middot;</span><span>359 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+      <time datetime="2025-10-29T22:29:55&#43;01:00">29 October 2025</time><span class="px-2 text-primary-500">&middot;</span><span>78 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
     
 
     
@@ -597,331 +595,51 @@
 
         <div class="article-content max-w-prose mb-20">
           
-<h1 class="relative group">🚀Markdown 
-    <div id="markdown" class="anchor"></div>
+<h1 class="relative group">🎨Templates 
+    <div id="templates" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#markdown" aria-label="Anchor">#</a>
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#templates" aria-label="Anchor">#</a>
     </span>        
     
 </h1>
+<p>Používají HTML a CSS - je třeba znát základy<br>
+Stránky v HUGO lze dělit na dva typy:</p>
 <ul>
-<li>Koncovka souboru .md</li>
-<li>Ve VS code lze otevřít markdown preview:</li>
+<li><strong>List pages</strong> - agregují stránky podobné kategorie, tagu nebo obsahu</li>
+<li><strong>Content pages</strong> - zobrazují jeden &ldquo;soubor&rdquo;, jde o jednu stránku</li>
 </ul>
-<pre tabindex="0"><code>    &gt;Markdown preview
-</code></pre><ul>
-<li>Často lze použít HTML tagy pro stylizaci</li>
-</ul>
+<p>Každý typ stránky má svůj vlastní <strong>template</strong></p>
 
-<h2 class="relative group">😋 Markdown &ldquo;flavours&rdquo; 
-    <div id="-markdown-flavours" class="anchor"></div>
+<h3 class="relative group">❓Co dovolují 
+    <div id="co-dovolují" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-markdown-flavours" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<ul>
-<li>Rozšíření, která přidávají funkcionalitu markdownu</li>
-<li>Např. Github flavour markdown</li>
-</ul>
-
-<h2 class="relative group">🗽 Základy 
-    <div id="-základy" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-z%c3%a1klady" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-
-<h3 class="relative group">📑 Text 
-    <div id="-text" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-text" aria-label="Anchor">#</a>
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#co-dovoluj%c3%ad" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
 <ul>
-<li>Text lze psát pouze jako text, není třeba žádné označení</li>
+<li>Sestavit strukturu stránky</li>
+<li>Do této struktury pak HUGO vkládá informace z markdown souborů</li>
 </ul>
-<pre tabindex="0"><code>    Takhle jednoduše lze zapsat text
-</code></pre><ul>
-<li>Dvojitá mezera přesune text na novou řádku</li>
-<li>Tučný text vypadá <strong>takto</strong></li>
-<li><em>Takhle vypadá text kurzívou</em></li>
-<li>Kombinace <em><strong>kurzívy i tučného textu</strong></em></li>
-<li><del>Tohle tu nemá být</del></li>
-<li><mark>HEJ HELE TADY JSEM</mark></li>
-<li>Co, <sup>proč jsem nahoře?</sup></li>
-<li>Hej <sub>proč jsem sakra dole wtfff</sub></li>
-</ul>
-<pre tabindex="0"><code>    **toto bude tučně** 
-    __toto bude také tučně__
-    *toto bude kurzívou*
-    ***toto bude tučně i kurzívou***
-    ~~toto bude přeškrtlé~~
-    &lt;mark&gt;toto bude mít zvýrazněné pozadí&lt;/mark&gt;
-    ==toto bude také zvýrazněné == (github flavour)
-    ^toto bude exponent^
-    &lt;sup&gt;toto bude také exponent&lt;/sup&gt;  (github flavour)
-    ~toto bude index~
-    &lt;sub&gt;toto bude také index&lt;/sub&gt; (github flavour)
-</code></pre>
-<h3 class="relative group">🔝 Nadpisy 
-    <div id="-nadpisy" class="anchor"></div>
+
+<h3 class="relative group">📁Kde se ukládají 
+    <div id="kde-se-ukládají" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-nadpisy" aria-label="Anchor">#</a>
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#kde-se-ukl%c3%a1daj%c3%ad" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
+<p>Uloženy v <code>templates/blowfish/layouts/_default</code></p>
 <ul>
-<li>Přidáním &ldquo;#&rdquo; vytvořím nadpis</li>
-<li>Možný počet #: 1-6</li>
-<li>Koreluje s html h1 - h6 (větší číslo = menší nadpis)</li>
+<li>umístění se může lišit, ale vždy bude v <code>templates/*název_template*/layouts</code></li>
 </ul>
-<pre tabindex="0"><code>    #Takhle
-    ##vypadají
-    ###všechny
-    ####možné
-    #####velikosti
-    ######nadpisu
-</code></pre>
-<h3 class="relative group">💻 Zobrazení kódu 
-    <div id="-zobrazení-kódu" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-zobrazen%c3%ad-k%c3%b3du" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<ul>
-<li>Takto se zobrazí <code>kus kódu</code></li>
-</ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl">    <span class="c1">// Tady jsem si vytvořil kus kódu
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kr">const</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">b</span> <span class="o">=</span> <span class="mi">8</span><span class="p">;</span>
-</span></span></code></pre></div><pre tabindex="0"><code>    `takto zvýrazním kus kódu v textu`
-    ```specifikace jayzka
-        kód
-    ```
-</code></pre>
-<h3 class="relative group">🔗 Odkazy 
-    <div id="-odkazy" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-odkazy" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<ul>
-<li><a
-  href="https://www.youtube.com/watch?v=xvFZjo5PgG0"
-    target="_blank"
-  >Sem neklikej, hlupáku</a></li>
-<li><a
-  href="https://google.com"
-    target="_blank"
-  >https://google.com</a></li>
-</ul>
-<pre tabindex="0"><code>    [zástupný text](odkaz)
-    &lt;odkaz&gt;
-</code></pre>
-<h3 class="relative group">🎨 Obrázky 
-    <div id="-obrázky" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-obr%c3%a1zky" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>
 
-
-
-
-
-
-<figure>
-    <img class="my-0 rounded-md" loading="lazy" alt="Obrázek" src="https://images.unsplash.com/photo-1752430038064-250d400e220f?ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;q=80&amp;w=3362">
-
-  
-</figure>
-</p>
-<pre tabindex="0"><code>    ![zástupný text](obrázek)
-</code></pre>
-<h3 class="relative group">💬 Zvýrazěnní textu / citace 
-    <div id="-zvýrazěnní-textu--citace" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-zv%c3%bdraz%c4%9bnn%c3%ad-textu--citace" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<blockquote>
-<p>Dva plus dva to je čtyři mínus jedna to je tři, rychlá matika! (Big Shaq)</p>
-<blockquote>
-<p>Vnořená citace</p></blockquote></blockquote>
-<ul>
-<li>tyhle texty</li>
-</ul>
-<hr>
-<ul>
-<li>jsou oddělené</li>
-</ul>
-<pre tabindex="0"><code>    &gt;citace
-    &gt;&gt; vnořená citace
-    
-    oddělení
-    ___
-    textu
-</code></pre>
-<h3 class="relative group">📰 Seznamy 
-    <div id="-seznamy" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-seznamy" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<ol>
-<li>toto</li>
-<li>je</li>
-<li>seřazený</li>
-<li>seznam</li>
-<li>věcí
-<ol>
-<li>které</li>
-<li>mě</li>
-<li>zajímají
-<ol>
-<li>možná</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-<ul>
-<li>existují</li>
-<li>také
-<ul>
-<li>neřazené
-<ul>
-<li>seznamy</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<pre tabindex="0"><code>    1. takto
-    2. vypadá
-        1. řazený
-        2. seznam
-
-    - takto
-    - vypadá
-        - neřazený
-    - seznam
-</code></pre>
-<h3 class="relative group">&#x1f375; Tabulky (GitHub flavour specific) 
-    <div id="tea-tabulky-github-flavour-specific" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#tea-tabulky-github-flavour-specific" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<table>
-  <thead>
-      <tr>
-          <th>číslo</th>
-          <th>obsah</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>1.</td>
-          <td>Brikule</td>
-      </tr>
-      <tr>
-          <td>2.</td>
-          <td>All</td>
-      </tr>
-      <tr>
-          <td>3.</td>
-          <td>Day</td>
-      </tr>
-  </tbody>
-</table>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: center">sloupec 1</th>
-          <th style="text-align: center">sloupec 2</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center">Tahle</td>
-          <td style="text-align: center">tabulka</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">zarovnává</td>
-          <td style="text-align: center">obsah</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">buněk</td>
-          <td style="text-align: center">na</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">střed</td>
-          <td style="text-align: center">.</td>
-      </tr>
-  </tbody>
-</table>
-<pre tabindex="0"><code>    |číslo|obsah  |
-    |-----|-------|
-    |1.   |Brikule|
-    |2.   |All    |
-    |3.   |Day    |
-
-    |sloupec 1 |sloupec 2 |
-    |:--------:|:--------:|
-    |Tahle     |tabulka   |
-    |zarovnává |obsah     |
-    |buněk     |na        |
-    |střed     |     .    |
-</code></pre>
-<h3 class="relative group">✅ Checklisty 
-    <div id="-checklisty" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-checklisty" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<ul>
-<li><input disabled="" type="checkbox"> tohle jsem nesplnil</li>
-<li><input checked="" disabled="" type="checkbox"> TOHLE JSEM SPLNIL JOO</li>
-</ul>
-<pre tabindex="0"><code>    - [ ] Prázdný checkbox
-    - [x] Splněný checkbox
-</code></pre>
           
           
           
@@ -948,8 +666,8 @@
           type="text/javascript"
           src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
           integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
-          data-oid="views_lessons\Markdown.md"
-          data-oid-likes="likes_lessons\Markdown.md"></script>
+          data-oid="views_lessons\Templates_intro.md"
+          data-oid-likes="likes_lessons\Templates_intro.md"></script>
       
     </section>
 
@@ -965,29 +683,29 @@
       <div class="flex justify-between pt-3">
         <span>
           
-        </span>
-        <span>
-          
-            <a class="flex text-right group ml-3" href="/lessons/shortcodes/">
+            <a class="flex group mr-3" href="/lessons/taxonomies/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
               <span class="flex flex-col">
                 <span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Shortcode experimenty</span
+                  >Taxonomies</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2025-10-27T23:22:49&#43;01:00">27 October 2025</time>
+                    <time datetime="2025-10-28T20:12:24&#43;01:00">28 October 2025</time>
                   
                 </span>
               </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
             </a>
+          
+        </span>
+        <span>
           
         </span>
       </div>

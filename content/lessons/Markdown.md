@@ -166,11 +166,3 @@ ___
     - [ ] Prázdný checkbox
     - [x] Splněný checkbox
 ```
-
-
-
-### Nadpis
-```
-brikule
-```
-
