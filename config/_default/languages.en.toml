@@ -2,7 +2,7 @@ disabled = false
 languageCode = "cz"
 languageName = "Czech"
 weight = 1
-title = "Blowfish"
+title = "Hugo SSG | Experiment"
 
 [params]
   displayName = "CZ"

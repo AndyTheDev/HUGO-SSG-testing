@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lessons on Blowfish</title>
+    <title>_Index on Hugo SSG | Experiment</title>
     <link>http://localhost:1313/lessons/</link>
-    <description>Recent content in Lessons on Blowfish</description>
+    <description>Recent content in _Index on Hugo SSG | Experiment</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cz</language>
     <managingEditor>hello@world.com (Vítej)</managingEditor>
     <webMaster>hello@world.com (Vítej)</webMaster>
     <copyright>© 2025 Vítej</copyright>
-    <lastBuildDate>Wed, 29 Oct 2025 22:29:55 +0100</lastBuildDate><atom:link href="http://localhost:1313/lessons/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Oct 2025 16:37:04 +0100</lastBuildDate><atom:link href="http://localhost:1313/lessons/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>List Page Templates</title>
+      <link>http://localhost:1313/lessons/list-page-templates/</link>
+      <pubDate>Fri, 31 Oct 2025 16:37:04 +0100</pubDate>
+      <author>hello@world.com (Vítej)</author>
+      <guid>http://localhost:1313/lessons/list-page-templates/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Templates_intro</title>

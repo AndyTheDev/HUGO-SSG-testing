@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Markdown on Blowfish</title>
+    <title>Markdown on Hugo SSG | Experiment</title>
     <link>http://localhost:1313/tags/markdown/</link>
-    <description>Recent content in Markdown on Blowfish</description>
+    <description>Recent content in Markdown on Hugo SSG | Experiment</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cz</language>
     <managingEditor>hello@world.com (Vítej)</managingEditor>
